@@ -164,6 +164,7 @@ nav li {
     align-items: center;
     margin: 0 auto;
     padding: 50px 150px;
+}
 h1{
     font-size: 55px;
     font-weight: 800;
@@ -184,3 +185,31 @@ form textarea{
     font-size: 18px;
     margin-bottom: 3px;
   }
+  /* footer style */
+ .font-change{
+   color: #4E47FF;
+   margin-bottom: 3px;
+   font-weight: 850;
+ }
+ footer p{
+  color: #8987A1;
+
+ }
+ .footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 20px;
+    margin-bottom:100px ;      
+  
+    color: #8987A1;
+    list-style: none;
+    a:link{
+        text-decoration: none;}
+      
+
+ }
+ .footer-background{
+  padding: 80px 100px;
+   background-color:  #c6c4d8;
+}
