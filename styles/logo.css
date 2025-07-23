@@ -18,8 +18,9 @@ nav li {
 
 .nav-title{
   color: #4E47FF;
-  font-size: 34px;
+  font-size: 20px;
 }
+
 .btn {
     background-color: #4E47FF;
     color: white;
@@ -40,9 +41,12 @@ nav li {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  text-align: center;
   text-wrap: wrap;
-
+}
+.text-align {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 150px;
 }
 .btn-align {
   display: block;
@@ -64,4 +68,77 @@ nav li {
 }
 .first-image {
  border-radius:48px;
+}
+/* users section style */
+.users-rate{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.users-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #252432;
+}
+.quantity-description{
+  font-size: 20px;
+  color: 000000;
+}
+.users-quantity{
+  color:#4E47FF;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0 auto;
+
+}
+.users-background{
+  background-color: #ded9eb;
+  padding: 50px 0;
+  margin: 120px 150px;
+  border-radius: 20px;
+}
+/* card section style*/
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 150px;
+  gap: 20px;
+
+  
+}
+.card-item{
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.reviewer{
+  display: inline-flex;
+  gap: 5px;
+}
+.round-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.card-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.users-comment{
+  display: flex;
+  align-content: right;
+}
+.users-comment{
+  font-size: 25px;
+}
+.card :hover{
+  color: cadetblue;
+  border-radius: 15px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
